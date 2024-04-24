@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61e86cd4-8136-458a-8a0f-8cd72fcb2663" name="Changes" comment="Ticket Charge">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/QRCode/QRCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/QRCode/QRCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/QRCode/QRController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/QRCode/QRData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/QRCode/QRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/razorPay/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/razorPay/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/razorPay/TransactionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/razorPay/verifyPaymentID/VerifyPaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/razorPay/verifyPaymentID/VerifyPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/userRegistration/DTO/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/userRegistration/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/userRegistration/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/userRegistration/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/userRegistration/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/Institution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/Institution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/InstitutionDTO/InstitutionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/InstitutionDTO/InstitutionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/InstitutionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/InstitutionRegistration/InstitutionRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/TicketBookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/TicketBookingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/controller/BasePayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/controller/BasePayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/controller/PhoneNumberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/controller/PhoneNumberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/service/BasePayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/service/BasePayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/TicketBooking/service/PhoneNumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TicketBooking/service/PhoneNumberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Institution_Registration" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="84ca5450-dd02-4a8d-afd3-b0ede152015f" />
+        <option name="url" value="https://github.com/stephy-vs/Ticket-Booking.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2bDlLD792P2UYTNy0E3pPLrSgBn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/TicketBookingCopy"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61e86cd4-8136-458a-8a0f-8cd72fcb2663" name="Changes" comment="" />
+      <created>1705757477619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705757477619</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2Factors">
+      <option name="closed" value="true" />
+      <created>1706712763366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706712763366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RazorPay Integration">
+      <option name="closed" value="true" />
+      <created>1706713162913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706713162913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="QR Code Generation">
+      <option name="closed" value="true" />
+      <created>1706713282290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706713282290</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Public Registration">
+      <option name="closed" value="true" />
+      <created>1706713387066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706713387066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Institution Registration">
+      <option name="closed" value="true" />
+      <created>1706713460772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706713460772</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ticket Charge">
+      <option name="closed" value="true" />
+      <created>1706713594325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706713594325</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ticket Charge">
+      <option name="closed" value="true" />
+      <created>1707286512037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707286512037</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Institution-Class">
+      <option name="closed" value="true" />
+      <created>1707286842573</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707286842573</updated>
+    </task>
+    <task id="LOCAL-00009" summary="InstitutionRegistrationDetails">
+      <option name="closed" value="true" />
+      <created>1707287809673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707287809673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1aeca162-a118-4741-b63e-c684e2a23796" value="TOOL_WINDOW" />
+        <entry key="3c7b899b-da7b-4c1e-ba7f-e24a155a919b" value="TOOL_WINDOW" />
+        <entry key="443ce6d8-aea7-4708-b782-910c7c957b46" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1aeca162-a118-4741-b63e-c684e2a23796">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/TicketBooking/src/main/java/com/TicketBooking/InstitutionRegistration" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="3c7b899b-da7b-4c1e-ba7f-e24a155a919b">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/TicketBooking/src/main/java/com/TicketBooking" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="443ce6d8-aea7-4708-b782-910c7c957b46">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:F:/TicketBooking/.mvn" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2Factors" />
+    <MESSAGE value="RazorPay Integration" />
+    <MESSAGE value="QR Code Generation" />
+    <MESSAGE value="Public Registration" />
+    <MESSAGE value="Institution Registration" />
+    <MESSAGE value="Ticket Charge" />
+    <MESSAGE value="Institution-Class" />
+    <MESSAGE value="InstitutionRegistrationDetails" />
+    <option name="LAST_COMMIT_MESSAGE" value="InstitutionRegistrationDetails" />
+  </component>
+</project>
