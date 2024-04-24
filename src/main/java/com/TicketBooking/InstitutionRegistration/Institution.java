@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 @Data
 @Entity
@@ -32,10 +33,29 @@ public class Institution {
     @Column(name = "bookDate")
     private LocalDate bookDate;
 
+    @Column(name = "category")
+    private String category;
+
     @Column(name = "total")
     private Integer total;
 
     @Column(name = "district")
     private String district;
 
+<<<<<<< Updated upstream
+=======
+    @Column(name = "orderId")
+    private String orderId;
+
+    @Column(name = "paymentId")
+    private String paymentId;
+
+    @Column(name = "bookingId")
+    private Integer bookingId;
+
+    @Column(name = "slotName")
+    private LocalTime slotName;
+
+
+>>>>>>> Stashed changes
 }

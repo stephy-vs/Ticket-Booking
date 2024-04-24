@@ -15,13 +15,12 @@ public class PhoneNumberController {
     @Autowired
     PhoneNumberService phoneNumberService;
 
-    @PostMapping(path = "getNumber")
-    public ResponseEntity<String> numberGet(@RequestBody PhoneNumber phoneNumber){
-        return phoneNumberService.getNumber(phoneNumber);
-    }
+//    @PostMapping(path = "getNumber")
+//    public ResponseEntity<String> numberGet(@RequestBody PhoneNumber phoneNumber){
+//        return phoneNumberService.getNumber(phoneNumber);
+//    }
 
     @CrossOrigin(origins = "http://localhost:8080")
-
     @GetMapping(path = "/sendSms{phNumber}")
     public ResponseEntity<String> sendOTP(@RequestParam Long phNumber){
         return phoneNumberService.sendOTP(phNumber);

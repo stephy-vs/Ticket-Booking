@@ -3,24 +3,39 @@ package com.TicketBooking.InstitutionRegistration.InstitutionDTO;
 import java.time.LocalDate;
 
 public class InstitutionDTO {
+<<<<<<< Updated upstream
     private int id;
     private String name;
     private String phNum;
+=======
+    private Integer id;
+    private String name;
+    private String phoneNumber;
+>>>>>>> Stashed changes
     private Integer teachers;
     private Integer student;
     private LocalDate bookDate;
     private Integer total;
 
+<<<<<<< Updated upstream
     public InstitutionDTO(int id, String name, String phNum, Integer teachers, Integer student, LocalDate bookDate, Integer total) {
         this.id = id;
         this.name = name;
         this.phNum = phNum;
+=======
+
+    public InstitutionDTO(Integer id, String name, String phoneNumber, Integer teachers, Integer student, LocalDate bookDate, Integer total) {
+        this.id = id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+>>>>>>> Stashed changes
         this.teachers = teachers;
         this.student = student;
         this.bookDate = bookDate;
         this.total = total;
     }
 
+<<<<<<< Updated upstream
 
 
     public int getId() {
@@ -28,6 +43,13 @@ public class InstitutionDTO {
     }
 
     public void setId(int id) {
+=======
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+>>>>>>> Stashed changes
         this.id = id;
     }
 
@@ -39,12 +61,21 @@ public class InstitutionDTO {
         this.name = name;
     }
 
+<<<<<<< Updated upstream
     public String getPhNum() {
         return phNum;
     }
 
     public void setPhNum(String phNum) {
         this.phNum = phNum;
+=======
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+>>>>>>> Stashed changes
     }
 
     public Integer getTeachers() {

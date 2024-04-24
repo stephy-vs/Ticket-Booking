@@ -1,6 +1,7 @@
 package com.TicketBooking.service;
 
 import com.TicketBooking.model.PhoneNumber;
+//import com.TicketBooking.repository.PhoneNumberRepo;
 import com.TicketBooking.repository.PhoneNumberRepo;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -16,16 +17,13 @@ import org.springframework.stereotype.Service;
 public class PhoneNumberService {
     @Autowired
     PhoneNumberRepo phoneNumberRepo;
-    public ResponseEntity<String> getNumber(PhoneNumber phoneNumber) {
-        phoneNumberRepo.save(phoneNumber);
-        return new ResponseEntity<>("Success", HttpStatus.OK);
-    }
+
 
     public ResponseEntity<String> sendOTP(Long phNumber) {
 
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .build();
-        String api_key = "a6207229-b6e5-11ee-8cbb-0200cd936042";
+        String api_key = "a4db2408-c0b3-11ee-8cbb-0200cd936042";
 
        String url ="https://2factor.in/API/V1/"+api_key+ "/SMS/" +phNumber+"/AUTOGEN3/OTP1";
 
@@ -54,11 +52,9 @@ public class PhoneNumberService {
         try (Response response = client.newCall(request).execute()){
 
             if (!response.isSuccessful()){
-
                 throw new RuntimeException("Unexpected response code : "+response);
             }
             String responseBody = response.body().string();
-
             PhoneNumber phoneNumber =new PhoneNumber();
             phoneNumber.setPhNumber(phNumber);
             phoneNumberRepo.save(phoneNumber);
